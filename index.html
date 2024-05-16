@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+    <div id="calc">
+            <input id="display" readonly>
+        <div id="keys">
+            <button onclick="cleardisplay()" class="op1">AC</button>
+            <button onclick="displayn()" class="op1">+/-</button>
+            <button onclick="displaya('%')" class="op1">%</button>
+            <button onclick="displaya('/')" class="op">÷</button>
+            <button onclick="displaya('7')">7</button>
+            <button onclick="displaya('8')">8</button>
+            <button onclick="displaya('9')">9</button>
+            <button onclick="displaya('*')" class="op">×</button>
+            <button onclick="displaya('4')">4</button>
+            <button onclick="displaya('5')">5</button>
+            <button onclick="displaya('6')">6</button>
+            <button onclick="displaya('-')" class="op">-</button>
+            <button onclick="displaya('1')">1</button>
+            <button onclick="displaya('2')">2</button>
+            <button onclick="displaya('3')">3</button>
+            <button onclick="displaya('+')" class="op">+</button>
+            <button onclick="displaya('0')" class="val">0</button>
+            <!-- <button onclick="displaya('00')">00</button> -->
+            <button onclick="displaya(',')" class="val2">,</button>
+            <button onclick="calculate()" class="op val1">=</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <h1>Designed By <span> Gurvir Singh </span> | Copyright &copy; All Rights Reserved</h1>
+</footer>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
